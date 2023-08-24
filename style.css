@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 4px solid rgba(231, 229, 216, 0.726);
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5%;
+}
+
+.create-an-account {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(15, 75, 167);
+}
+
+.form-floating {
+    margin-bottom: 15px;
+}
+
+#password {
+    margin-bottom: 5px;
+}
+
+.password-requirements {
+    font-size: 0.8rem;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sign-up-variants {
+    text-align: center;
+}
+
+.icons-segment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.btn-icon {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
